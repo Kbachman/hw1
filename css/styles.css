@@ -1,0 +1,18 @@
+@import url(reset.css);
+
+body {
+	background-image: url(../img/pizza1.jpg);
+	background-repeat: no-repeat;
+	background-size: fill;
+}
+
+.logo {
+	float:left;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 200%;
+	font-weight: bold;
+	
+}
