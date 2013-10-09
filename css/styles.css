@@ -7,12 +7,63 @@ body {
 }
 
 .logo {
+	margin-top: 10px;
+	margin-left: 10px;
 	float:left;
-	padding: 10px;
+	border-style: solid;
+	border-color: #EEC900;
+	border-width: 10px;
+	border-right: none;
 }
 
 h1 {
-	font-size: 200%;
-	font-weight: bold;
-	
+	font-size: 400%;
+	font-family: 'Over the Rainbow', cursive;
+	color:#EEC900;
 }
+
+header {
+	margin-top: 10px;
+	background-color: #CD96CD; 
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: solid;
+	border-width: 10px;
+	border-left: none;
+	border-color: #EEC900;
+}
+
+header a {
+	text-decoration: none;
+	font-family: 'Libre Baskerville', serif;
+	color: #EEC900;
+}
+
+header a:hover {
+	background-color:#EEC900;
+	color: purple;
+	font-weight: bold;
+	padding:10px;
+}
+
+
+header li {
+	padding: 15px;
+}
+
+section {
+	float: right;
+	width: 50%;
+	margin-top: 20%;
+	background-image: url(../img/brickwall.png);
+	border-style: solid;
+	border-width: 10px;
+	border-color: #EEC900;
+}
+section p {
+	padding: 10px;
+	text-indent: 5%;
+}
+
+
