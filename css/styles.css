@@ -21,7 +21,7 @@
 	border-right: none;
 }
 
-h1 {
+header h1 {
 	font-size: 400%;
 	font-family: 'Over the Rainbow', cursive;
 	color:#EEC900;
@@ -59,12 +59,13 @@ header li {
 
 section {
 	float: right;
-	width: 50%;
+	width: 70%;
 	margin-top: 20%;
 	background-image: url(../img/brickwall.png);
 	border-style: solid;
 	border-width: 10px;
 	border-color: #EEC900;
+
 }
 section li {
 	padding: 10px;
@@ -90,5 +91,34 @@ h2 {
 	color: purple;
 	font-weight: bold;
 }
+h4 {
+	padding-bottom: 1em;
+	padding-left: 10px;
+}
+
+.type h2 {
+	text-align: left;
+	font-size: 150%;
+}
+
+.type li p {
+	padding-left: 80px;
+	text-indent: 0;
+
+}
+.sizes li {
+	font-weight: bold;
+	padding-left: 10px;
+
+}
+#special {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 110%;
+}
+h3 {
+	font-size: 130%;
+}
+
 
 
