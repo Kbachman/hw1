@@ -65,7 +65,11 @@ section {
 	border-style: solid;
 	border-width: 10px;
 	border-color: #EEC900;
-
+}
+#menupage {
+	width: 70%;
+	height: 600px;
+	overflow: scroll;
 }
 section li {
 	padding: 10px;
